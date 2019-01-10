@@ -1,0 +1,13 @@
+{
+    "name": "othmar52/jam-webplayer1",
+    "description": "a web audio player for multiple audio streams or stems",
+    "type": "plugin",
+    "authors": [
+        {
+            "name": "JamWebPlayer1",
+            "email": "othmar52@users.noreply.github.com"
+        }
+    ],
+    "require": {
+    }
+}
