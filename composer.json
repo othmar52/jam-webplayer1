@@ -8,11 +8,22 @@
             "email": "othmar52@users.noreply.github.com"
         }
     ],
-    "extra": {
-        "installer-paths": {
-            "jamSplitter/plugins/{$name}": ["othmar52/jam-webplayer1"]
-        }
-    },
     "require": {
-    }
+        "vuejs/vue": "master"
+    },
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+              "name": "vuejs/vue",
+              "version":"master",
+              "source": {
+                  "url": "https://github.com/vuejs/vue.git",
+                  "type": "git",
+                  "reference":"master"
+                }
+            }
+        }
+    ],
+    "minimum-stability": "dev"
 }
