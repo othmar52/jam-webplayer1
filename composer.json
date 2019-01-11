@@ -8,6 +8,11 @@
             "email": "othmar52@users.noreply.github.com"
         }
     ],
+    "extra": {
+        "installer-paths": {
+            "jamSplitter/plugins/{$name}": ["othmar52/jam-webplayer1"]
+        }
+    },
     "require": {
     }
 }
